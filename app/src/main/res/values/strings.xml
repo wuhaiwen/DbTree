@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">DbTree</string>
     <string name="title_activity_base">BaseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="home_page">首页</string>
+    <string name="message">消息</string>
+    <string name="discovery">发现</string>
+    <string name="mine">我的</string>
 </resources>
