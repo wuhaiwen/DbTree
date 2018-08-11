@@ -59,11 +59,16 @@ public class DiscoveryFragment extends BaseFragment {
         discovery_tabLayout.setupWithViewPager(discovery_viewPager);
     }
 
+    @Override
+    public void refreshUi() {
+
+    }
+
     class TabAdapter extends FragmentPagerAdapter{
 
 
         List<BaseFragment> fragmentList = new ArrayList<>();
-        String[] title = {"拦截记录","拦截规则","关于"};
+        String[] title = {"热门","视频","榜单"};
 
         public TabAdapter(FragmentManager fm) {
             super(fm);

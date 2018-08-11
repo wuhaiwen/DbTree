@@ -39,6 +39,11 @@ public class MessageFragment extends BaseFragment {
 
     }
 
+    @Override
+    public void refreshUi() {
+
+    }
+
 
     @Override
     public void onAttach(Context context) {

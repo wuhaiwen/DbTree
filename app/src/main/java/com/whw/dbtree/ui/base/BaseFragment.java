@@ -1,5 +1,6 @@
 package com.whw.dbtree.ui.base;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -30,5 +31,10 @@ public abstract class BaseFragment extends android.support.v4.app.Fragment {
 
     public abstract void initView();
 
+    public abstract void refreshUi();
+
+    public interface MessageCallBack{
+        public void getUnReadMessage(int currentFragment,int count);
+    }
 
 }

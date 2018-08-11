@@ -38,4 +38,9 @@ public class MineFragment extends BaseFragment {
 
     }
 
+    @Override
+    public void refreshUi() {
+
+    }
+
 }

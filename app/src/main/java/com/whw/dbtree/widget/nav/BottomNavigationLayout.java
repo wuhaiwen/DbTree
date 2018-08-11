@@ -20,9 +20,7 @@ import com.whw.dbtree.widget.nav.behaviour.BottomVerticalScrollBehavior;
 
 import java.util.ArrayList;
 
-/**
- * Created by Ca1j on 2017/1/12.
- */
+
 
 @CoordinatorLayout.DefaultBehavior(BottomVerticalScrollBehavior.class)
 public class BottomNavigationLayout extends LinearLayout {
@@ -86,6 +84,7 @@ public class BottomNavigationLayout extends LinearLayout {
         mBottomNavigationItems.add(item);
         return this;
     }
+
 
     public void initialise() {
         for (NavigationItem tabItem : mBottomNavigationItems){

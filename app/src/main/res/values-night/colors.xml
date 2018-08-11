@@ -10,13 +10,13 @@
     <!-- 日间模式下app标题栏背景色 -->
     <color name="app_title_bg_daily">#FF2F3A4C</color>
     <!-- 夜间模式下app背景色 -->
-    <color name="app_bg_night">@android:color/darker_gray</color>
+    <color name="app_bg_night">#1F1F1F</color>
     <!-- 夜间模式下app标题栏背景色 -->
     <color name="app_title_bg_night">#FF1D1D1D</color>
 
-    <color name="main_theme_color">#0088FF</color>
+    <color name="main_theme_color">#FF2F3A4C</color>
     <color name="default_badge_color">#ee2668</color>
-    <color name="bottom_navigation_bg_color">#FFFFFF</color>
+    <color name="bottom_navigation_bg_color">#FF2F3A4C</color>
     <color name="white">#FFFFFF</color>
     <color name="transparent">#00000000</color>
 </resources>
